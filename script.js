@@ -166,9 +166,11 @@ document.addEventListener('DOMContentLoaded', () => {
         status: `<span class="badge-success">● READY TO BUILD</span> Actively seeking DevOps and cloud engineering roles. Open to collaborate!`,
         projects: `<div class="json-output">
             1. <strong>CLI Interactive Portfolio</strong> (JavaScript, Terminal UI)<br>
-            2. <strong>Patient Billing System</strong> (Java Swing, OOP, File I/O)<br>
-            3. <strong>VLSM Network Calculator</strong> (Subnetting Algorithm, JS)<br>
-            4. <strong>Student Task Manager</strong> (Node.js, Express, MongoDB)
+            2. <strong>DevOps RAG Assistant</strong> (FastAPI, LangChain, ChromaDB)<br>
+            3. <strong>LAMP Stack Automation</strong> (Bash, Apache, MySQL, PHP)<br>
+            4. <strong>Patient Billing System</strong> (Java Swing, OOP, File I/O)<br>
+            5. <strong>VLSM Network Calculator</strong> (Subnetting Algorithm, JS)<br>
+            6. <strong>Student Task Manager</strong> (Node.js, Express, MongoDB)
         </div>`
     };
 

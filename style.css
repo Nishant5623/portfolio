@@ -1329,6 +1329,23 @@ body {
     background: linear-gradient(135deg, #221311 0%, #3d1e19 100%);
 }
 
+.preview-rag,
+.preview-lamp {
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    padding: 1.25rem;
+    font-family: var(--font-mono);
+}
+
+.preview-rag {
+    background: linear-gradient(135deg, #10131f 0%, #1d2140 100%);
+}
+
+.preview-lamp {
+    background: linear-gradient(135deg, #131a10 0%, #1f331c 100%);
+}
+
 .preview-icon-symbol {
     font-size: 3.8rem;
     color: rgba(255, 255, 255, 0.85);
@@ -1387,6 +1404,18 @@ body {
     background: rgba(236, 72, 153, 0.12);
     border-color: rgba(236, 72, 153, 0.3);
     color: var(--accent-pink);
+}
+
+.badge-ai {
+    background: rgba(99, 102, 241, 0.12);
+    border-color: rgba(99, 102, 241, 0.3);
+    color: var(--accent-indigo);
+}
+
+.badge-devops {
+    background: rgba(0, 255, 136, 0.12);
+    border-color: rgba(0, 255, 136, 0.3);
+    color: var(--accent-emerald);
 }
 
 .project-title {
