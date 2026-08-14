@@ -1072,7 +1072,7 @@ body {
    ========================================================================== */
 .skills-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     gap: 1.5rem;
 }
 
@@ -1123,7 +1123,7 @@ body {
 
 .skill-items {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 0.75rem;
 }
 
@@ -1137,9 +1137,11 @@ body {
     border-radius: var(--radius-sm);
     font-size: 0.85rem;
     font-weight: 500;
+    line-height: 1.3;
     color: var(--text-main);
     position: relative;
     cursor: pointer;
+    min-width: 0;
     transition: var(--spring-physics);
 }
 
@@ -1154,28 +1156,36 @@ body {
 
 .skill-icon {
     font-size: 1.15rem;
+    flex-shrink: 0;
     transition: var(--spring-physics);
+}
+
+.skill-item span {
+    min-width: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .skill-item:hover .skill-icon {
     transform: scale(1.25) rotate(6deg);
 }
 
-.skill-icon.java { color: #f89820; }
-.skill-icon.python { color: #3776ab; }
-.skill-icon.cpp { color: #00599c; }
 .skill-icon.bash { color: #4eaa25; }
-.skill-icon.spring { color: #6db33f; }
-.skill-icon.dsa { color: var(--accent-cyan); }
-.skill-icon.linux { color: #fcc624; }
-.skill-icon.sql { color: #00758f; }
-.skill-icon.html { color: #e34f26; }
-.skill-icon.css { color: #1572b6; }
+.skill-icon.python { color: #3776ab; }
+.skill-icon.yaml { color: #cb171e; }
 .skill-icon.js { color: #f7df1e; }
-.skill-icon.node { color: #339933; }
+.skill-icon.docker { color: #2496ed; }
+.skill-icon.k8s { color: #326ce5; }
+.skill-icon.terraform { color: #844fba; }
+.skill-icon.aws { color: #ff9900; }
+.skill-icon.actions { color: #2088ff; }
+.skill-icon.jenkins { color: #d33833; }
+.skill-icon.grafana { color: #e6522c; }
+.skill-icon.nginx { color: #009639; }
 .skill-icon.git { color: #f05032; }
 .skill-icon.github { color: #ffffff; }
-.skill-icon.mongo { color: #47a248; }
+.skill-icon.linux { color: #fcc624; }
 .skill-icon.vscode { color: #007acc; }
 
 /* Tooltip on hover */

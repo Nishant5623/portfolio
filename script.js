@@ -157,13 +157,13 @@ document.addEventListener('DOMContentLoaded', () => {
     const termButtons = document.querySelectorAll('.term-btn');
 
     const termResponses = {
-        whoami: `<span class="text-white">Nishant Pal</span> — 3rd Year B.Tech CSE Student & Backend Enthusiast.`,
+        whoami: `<span class="text-white">Nishant Pal</span> — 4th Year B.Tech CSE Student & DevOps Enthusiast.`,
         skills: `<div class="json-output">
-            <span class="json-key">"languages"</span>: [<span class="json-str">"Java"</span>, <span class="json-str">"Python"</span>, <span class="json-str">"C++"</span>, <span class="json-str">"Bash"</span>],<br>
-            <span class="json-key">"backend"</span>: [<span class="json-str">"Spring Boot"</span>, <span class="json-str">"DSA"</span>, <span class="json-str">"SQL"</span>, <span class="json-str">"MongoDB"</span>],<br>
-            <span class="json-key">"environment"</span>: <span class="json-str">"Arch Linux / Git / REST APIs"</span>
+            <span class="json-key">"languages"</span>: [<span class="json-str">"Bash"</span>, <span class="json-str">"Python"</span>, <span class="json-str">"YAML"</span>],<br>
+            <span class="json-key">"automation"</span>: [<span class="json-str">"Docker"</span>, <span class="json-str">"Kubernetes"</span>, <span class="json-str">"CI/CD"</span>, <span class="json-str">"Terraform"</span>],<br>
+            <span class="json-key">"environment"</span>: <span class="json-str">"Linux / AWS / Git"</span>
         </div>`,
-        status: `<span class="badge-success">● READY TO BUILD</span> Actively seeking internships and backend software roles. Open to collaborate!`,
+        status: `<span class="badge-success">● READY TO BUILD</span> Actively seeking DevOps and cloud engineering roles. Open to collaborate!`,
         projects: `<div class="json-output">
             1. <strong>CLI Interactive Portfolio</strong> (JavaScript, Terminal UI)<br>
             2. <strong>Patient Billing System</strong> (Java Swing, OOP, File I/O)<br>
